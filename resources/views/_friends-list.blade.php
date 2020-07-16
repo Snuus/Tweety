@@ -2,7 +2,7 @@
 
 <ul>
 
-    @foreach(range(1,8) as $index)
+    @foreach(auth()->user()->follows as $user)
     <li class="mb-4">
         <div class="flex text-sm">
             <img
