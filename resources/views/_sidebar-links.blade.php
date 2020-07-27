@@ -1,7 +1,8 @@
+
 <ul>
     <li><a
             class="font-bold text-lg mb-4 block"
-            href="#"
+            href="{{route('home')}}"
         >Home</a></li>
     <li><a
             class="font-bold text-lg mb-4 block"
@@ -23,12 +24,18 @@
             class="font-bold text-lg mb-4 block"
             href="#"
         >Lists</a></li>
+    @auth
     <li><a
             class="font-bold text-lg mb-4 block"
-            href="#"
-        >Profile</a></li>
+            href="{{ route('profile', auth()->user() )}}"
+        >
+            Profile
+        </a>
+    </li>
+    @endauth
     <li><a
             class="font-bold text-lg mb-4 block"
             href="#"
         >More</a></li>
 </ul>
+
