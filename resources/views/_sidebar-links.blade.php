@@ -24,7 +24,7 @@
             class="font-bold text-lg mb-4 block"
             href="#"
         >Lists</a></li>
-    @auth
+
     <li><a
             class="font-bold text-lg mb-4 block"
             href="{{ route('profile', auth()->user() )}}"
@@ -32,7 +32,7 @@
             Profile
         </a>
     </li>
-    @endauth
+
     <li><a
             class="font-bold text-lg mb-4 block"
             href="#"
