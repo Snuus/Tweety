@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37052685-b703-4bb1-b96c-ded9e73844c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Followable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,19 +179,28 @@
       <updated>1594212626022</updated>
       <workItem from="1594212634798" duration="1112000" />
       <workItem from="1594888107157" duration="1551000" />
+      <workItem from="1596015528377" duration="4298000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1653" y="180" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1596016115421">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1653" y="180" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1/-1920.23.1920.1057/0.23.1440.813@-1920.23.1920.1057" timestamp="1596016115421" />
     <state x="964" y="331" key="#phpunit.xml" timestamp="1594888371360">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="964" y="331" key="#phpunit.xml/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1594888371360" />
+    <state x="-1649" y="359" key="NewPhpClassDialog" timestamp="1596016070527">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1649" y="359" key="NewPhpClassDialog/-1920.23.1920.1057/0.23.1440.813@-1920.23.1920.1057" timestamp="1596016070527" />
   </component>
 </project>
