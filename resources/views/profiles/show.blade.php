@@ -20,7 +20,7 @@
             >
                 Edit Profile
             </a>
-            <form method="POST" action=""{{ route('follow', $user->name) }}"
+            <form method="POST" action="{{ route('follow', $user->name) }}">
                 @csrf
             <button
                 type="submit"
