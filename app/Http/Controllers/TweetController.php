@@ -26,7 +26,7 @@ class TweetController extends Controller
 
         ]);
 
-        return redirect('tweets');
+        return redirect()->route('home');
 
     }
 
