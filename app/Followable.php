@@ -1,15 +1,22 @@
 <?php
 
-
 namespace App;
-
 
 trait Followable
 {
-
     public function follow(User $user)
     {
         return $this->follows()->save($user);
+    }
+
+    public function unfollow(User $user)
+    {
+        return $this->follows()->detach($user);
+    }
+
+    public function toggleFollow(User $user)
+    {
+        $this->follows()->toggle($user);
     }
 
     public function following(User $user)
