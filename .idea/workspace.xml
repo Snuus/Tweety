@@ -32,13 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37052685-b703-4bb1-b96c-ded9e73844c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
+    <list default="true" id="a5e6b29d-680f-4cd2-891d-ecba5344b3a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FollowsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TweetController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/_tweet.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_tweet.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/follow-button.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +199,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37052685-b703-4bb1-b96c-ded9e73844c5" name="Default Changelist" comment="" />
+      <changelist id="a5e6b29d-680f-4cd2-891d-ecba5344b3a1" name="Default Changelist" comment="" />
       <created>1594212626022</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -211,11 +207,12 @@
       <workItem from="1594212634798" duration="1112000" />
       <workItem from="1594888107157" duration="1551000" />
       <workItem from="1596015528377" duration="4298000" />
+      <workItem from="1597089741584" duration="341000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
@@ -230,6 +227,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1653" y="180" key="#com.jetbrains.php.refactoring.pullPush.pullUp.PhpPullUpDialog#1" timestamp="1596016115421">

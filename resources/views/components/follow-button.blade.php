@@ -1,5 +1,5 @@
 
-
+@if (auth()->user()->isNot($user))
 <form method="POST"
     action="{{ route('follow', $user->name) }}">
 @csrf
@@ -10,3 +10,4 @@
     {{auth()->user()->following($user) ? 'Unfollow Me' : 'Follow Me'}}
 </button>
 </form>
+    @endif
