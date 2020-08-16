@@ -34,11 +34,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a5e6b29d-680f-4cd2-891d-ecba5344b3a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_friends-list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_timeline.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_timeline.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,9 @@
       <workItem from="1594888107157" duration="1551000" />
       <workItem from="1596015528377" duration="4298000" />
       <workItem from="1597089741584" duration="2974000" />
-      <workItem from="1597270136361" duration="548000" />
+      <workItem from="1597270136361" duration="624000" />
+      <workItem from="1597405074860" duration="1319000" />
+      <workItem from="1597606225673" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -254,5 +254,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1114" y="402" key="RollbackChangesDialog/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1596102297108" />
+    <state x="701" y="304" width="585" height="801" key="find.popup" timestamp="1597405156591">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="701" y="304" width="585" height="801" key="find.popup/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1597405156591" />
   </component>
 </project>
