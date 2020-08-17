@@ -15,8 +15,8 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = [
-        'username','name', 'email', 'password',
+    protected $guarded = [
+
     ];
 
     /**
@@ -37,9 +37,9 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function getAvatarAttribute()
+    public function getAvatarAttribute($value)
     {
-        return "https://i.pravatar.cc/200?u=" . $this->email;
+        return asset('storage/' . $value);
     }
 
 
@@ -59,7 +59,9 @@ class User extends Authenticatable
         return $this->hasMany(Tweet::class)->latest();
     }
 
-    public function path($append = ' ')
+
+    //ALWAYS MAKE SURE THERE IS NO SPACE IN BETWEEN '' AT THE APPEND. WAS LOOKING AT THIS BUG FOR 1 DAY :(
+    public function path($append = '')
     {
        $path =  route('profile', $this->username);
 
