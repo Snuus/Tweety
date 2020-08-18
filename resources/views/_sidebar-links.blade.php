@@ -21,9 +21,8 @@
 
 
     <li>
-        <form method="POST" action="logout">
+        <form method="POST" action="{{route('logout')}}">
             @csrf
-
 
             <button class="font-bold text-lg">logout</button>
         </form>

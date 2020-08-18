@@ -28,6 +28,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/explore', 'ExploreController@index')->name('explore');
     Route::get('/profiles/{user:username}', 'ProfilesController@show')->name('profile');
+    Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 });
 
 
