@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Validation\Rule;
-
+use Intervention\Image\ImageManager;
 class ProfilesController extends Controller
 {
     public function show(User $user)
@@ -51,7 +51,7 @@ class ProfilesController extends Controller
             ],
         ]);
 
-        if (request('avatar')) {
+        if (request('avatar')->orientate()) {
             $attributes['avatar'] = request('avatar')->store('avatars');
         }
 
