@@ -5,16 +5,14 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Validation\Rule;
-use Intervention\Image\ImageManager;
+
 class ProfilesController extends Controller
 {
     public function show(User $user)
     {
         return view('profiles.show', [
             'user' => $user,
-            'tweets' => $user
-                ->tweets()
-                ->paginate(50),
+            'tweets' => $user->tweets()->paginate(5),
         ]);
     }
 
