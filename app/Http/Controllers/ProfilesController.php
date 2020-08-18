@@ -34,7 +34,9 @@ class ProfilesController extends Controller
                 Rule::unique('users')->ignore($user),
             ],
             'name' => ['string', 'required', 'max:255'],
+            'about' => ['string', 'max:255'],
             'avatar' => ['image'],
+            'background' => ['image'],
             'email' => [
                 'string',
                 'required',
@@ -51,10 +53,15 @@ class ProfilesController extends Controller
             ],
         ]);
 
-        if (request('avatar')->orientate()) {
+
+
+        if (request('avatar')) {
             $attributes['avatar'] = request('avatar')->store('avatars');
         }
 
+        if (request('background')) {
+            $attributes['background'] = request('background')->store('backgrounds');
+        }
         $user->update($attributes);
 
         return redirect($user->path());

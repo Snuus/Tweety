@@ -3,7 +3,7 @@
         <div class="relative">
 
             <img
-                src="../images/default-profile-banner.jpg"
+                src="{{$user->background}}"
                 alt=""
                 class="mb-2"
             >
@@ -39,8 +39,15 @@
         </div>
 
         </div>
-        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi dolores ea eaque excepturi id ipsum, iste libero molestiae neque nobis nostrum, omnis tempore. Blanditiis eveniet fuga fugiat molestias tenetur.</p>
 
+
+
+
+        @if(!empty($user->about))
+            <p class="text-sm">{{$user->about}} </p>
+        @else
+            <p class="text-sm">Its a little empty here...</p>
+        @endif
 
     </header>
 

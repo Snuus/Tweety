@@ -49,6 +49,21 @@ class User extends Authenticatable
 
     }
 
+    public function getBackgroundAttribute($value)
+    {
+        if(isset($value))
+        {
+            return asset('storage/'. $value);
+        }else
+        {
+            return asset('/images/default-profile-banner.jpg');
+        }
+
+    }
+
+
+
+
     public function setPasswordAttribute($password){
         $this->attributes['password'] = Hash::needsRehash($password) ? Hash::make($password) : $password;
     }
