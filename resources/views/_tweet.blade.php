@@ -22,5 +22,9 @@
     <p class="text-sm">
         {{$tweet->body}}
     </p>
+    <p class="text-xs text-gray-700   mt-5">
+        {{$tweet->created_at}}
+    </p>
 </div>
+
 </div>
